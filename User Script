@@ -1,0 +1,11 @@
+(function() {
+    const extensionId = 'your_extension_id_here
+
+    const uninstallExtension = () => {
+        const url = `chrome://extensions/?id=${extensionId}`;
+        window.open(url, '_self');
+    };
+
+    // Trigger the uninstall process
+    uninstallExtension();
+})();
